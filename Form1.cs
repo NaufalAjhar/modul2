@@ -163,6 +163,7 @@ namespace modul2_1302223040
         private void buttonEqual_Click(object sender, EventArgs e)
         {
             int angka = angka1 + angka2;
+            angka1 = angka;
             output.Text = angka +"";
         }
     }
